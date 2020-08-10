@@ -140,7 +140,11 @@ h4 {
 .plan-header{
   position: relative;
   top: -406px;
+  height: 111px;
 }
 .plan-header svg{
   width: 100%;
+}
+.plan-body{
+  padding-top: 15rem;
 }
