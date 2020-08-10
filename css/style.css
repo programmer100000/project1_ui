@@ -60,6 +60,36 @@ h4 {
     font-size: 0.8rem !important;
 }
 
+.container-fluid {
+    background-color: #231553;
+}
+
+.inner-slider {
+    height: 400px;
+}
+
+.plan {
+    background-color: #34256a;
+    height: 400px;
+}
+
+.plan-body {
+    /* padding-top: 10rem!important; */
+    padding: 3rem;
+    /* border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-radius: 50% 50% 0 0; */
+}
+
+.popular {
+    background-color: #34256a;
+    height: 300px;
+}
+
+.introduce {
+    background-color: #34256a;
+}
+
 #mainNav {
     background-color: #2c1e59!important;
 }
@@ -75,12 +105,11 @@ h4 {
     background-color: #fff;
     border-radius: 30px;
     padding: 10px;
-    width: 450px;
 }
 
 .search_input {
-    color: white;
-    border: 0;
+    float: right;
+    width: 83%;
     outline: 0;
     background: none;
     caret-color: transparent;
@@ -90,18 +119,14 @@ h4 {
 
 .searchbar:hover>.search_icon {
     background: white;
-    color: #e74c3c;
+    color: #e80767;
 }
 
 .search_icon {
     height: 40px;
-    width: 40px;
+    width: 15%;
     float: right;
-    display: flex;
-    background: #e74c3c;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color: #fff;
+    background: #e80767;
+    border-radius: 40%;
     text-decoration: none;
 }
