@@ -15,7 +15,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    background:#231553;
+    background: #231553;
 }
 
 @media screen and (max-width: 768px) {
@@ -61,8 +61,8 @@ h4 {
     font-size: 0.8rem !important;
 }
 
-.container-fluid {
-    background-color: #231553;
+.total-content {
+    /* background-color: #231553; */
 }
 
 .inner-slider {
@@ -143,9 +143,45 @@ h4 {
   top: -406px;
   height: 111px;
 }
-.plan-header svg{
-  width: 100%;
+
+footer {
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/group.svg');
+    background-size: 100%;
+    /* background-attachment: fixed; */
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.inner-slider {
+    background-image: url(../img/bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 1109px;
+}
+
+.plan-header {
+    position: relative;
+    top: -406px;
+}
+
+.plan-header svg {
+    width: 100%;}
+
+.about-section {
+    background-image: url(../img/about.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px;
 }
 .plan-body{
   padding-top: 15rem;
+}
+
+.top-footer {
+    position: relative;
+    bottom: 550px;
+    height: 111px;
 }
