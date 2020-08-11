@@ -245,18 +245,16 @@ footer {
     background-image: url(../img/Artboard.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* height: 500px; */
+    height: 700px;
 }
 
 .top-about,
 .bottom-about,
 .card,
-.main-contact {
+.main-contact,
+.popular,
+.popular-img {
     border-radius: 1.3rem!important;
-}
-
-<<<<<<< HEAD=======>>>>>>>880f178f1c4746393d4d4dd8561aaaf32a11ec68 .inner-slider {
-    height: 400px;
 }
 
 .plan {
@@ -312,12 +310,35 @@ footer {
 
 .popular {
     background-color: #34256a;
-    height: 300px;
+    height: 600px;
+}
+
+.popular-img {
+    background-image: url(../img/art.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .introduce {
-    height: 300px;
+    height: 600px;
     background-color: #34256a;
+}
+
+.introduce2-img {
+    background-image: url(../img/MaskGroup3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.introduce1-img {
+    height: 300px;
+    background-image: url(../img/MaskGroup4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.introduce1-data {
+    height: 250px;
 }
 
 #mainNav {
