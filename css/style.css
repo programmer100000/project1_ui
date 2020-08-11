@@ -62,7 +62,7 @@ h4 {
 }
 
 .total-content {
-    /* background-color: #231553; */
+    background-color: #231553;
 }
 
 .inner-slider {
@@ -161,6 +161,7 @@ footer {
 }
 
 .about-section {
+    margin-bottom: 20rem!important;
     background-image: url(../img/about.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -171,4 +172,8 @@ footer {
     position: relative;
     bottom: 550px;
     height: 111px;
+}
+
+.inner-top-footer svg {
+    width: 100%;
 }
