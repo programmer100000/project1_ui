@@ -131,7 +131,7 @@ h4 {
 }
 
 .searchbar:hover>.search_icon {
-    <<<<<<< HEAD=======>>>>>>>880f178f1c4746393d4d4dd8561aaaf32a11ec68 color: #e80767;
+    color: #e80767;
     opacity: .8;
 }
 
@@ -320,7 +320,7 @@ footer {
 }
 
 .introduce {
-    height: 600px;
+    /* height: 600px; */
     background-color: #34256a;
 }
 
