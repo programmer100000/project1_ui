@@ -131,7 +131,7 @@ h4 {
 }
 
 .searchbar:hover>.search_icon {
-    color: #e80767;
+    <<<<<<< HEAD=======>>>>>>>880f178f1c4746393d4d4dd8561aaaf32a11ec68 color: #e80767;
     opacity: .8;
 }
 
@@ -255,7 +255,7 @@ footer {
     border-radius: 1.3rem!important;
 }
 
-.inner-slider {
+<<<<<<< HEAD=======>>>>>>>880f178f1c4746393d4d4dd8561aaaf32a11ec68 .inner-slider {
     height: 400px;
 }
 
