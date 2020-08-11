@@ -15,7 +15,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    background: #231553;
+    background: #2B1E59!important;
 }
 
 @media screen and (max-width: 768px) {
@@ -71,7 +71,7 @@ h4 {
 
 .plan {
     background-color: #34256a;
-    height: 400px;
+    height: 760px;
 }
 
 .inner-plan-header {
