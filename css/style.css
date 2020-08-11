@@ -15,7 +15,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    background: #231553;
+    background: #2B1E59!important;
 }
 
 @media screen and (max-width: 768px) {
@@ -62,7 +62,7 @@ h4 {
 }
 
 .total-content {
-    background-color: #231553;
+    /* background-color: #231553; */
 }
 
 .inner-slider {
@@ -71,7 +71,7 @@ h4 {
 
 .plan {
     background-color: #34256a;
-    height: 400px;
+    height: 760px;
 }
 
 .inner-plan-header {
@@ -131,18 +131,8 @@ h4 {
 }
 
 .searchbar:hover>.search_icon {
-    background: white;
     color: #e80767;
     opacity: .8;
-}
-
-.search_icon {
-    height: 40px;
-    width: 7%;
-    float: right;
-    background: #e80767;
-    border-radius: 50%;
-    text-decoration: none;
 }
 
 .search_icon a:hover,
@@ -265,73 +255,6 @@ footer {
     border-radius: 1.3rem!important;
 }
 
-@font-face {
-    font-family: 'BYekan';
-    src: url('../fonts/BYekan-webfont.eot') format('eot'), url('../fonts/BYekan-webfont.woff') format('woff'), url('../fonts/BYekan-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    direction: rtl;
-    font-family: BYekan;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    background: #2B1E59 !important;
-}
-
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 14px !important;
-    }
-}
-
-header {
-    overflow: hidden;
-    padding: 0;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-a,
-a:hover,
-a:active,
-a:visited {
-    text-decoration: none!important;
-}
-
-*:focus {
-    outline: 0 !important;
-}
-
-h1 {
-    font-size: 1.2rem !important;
-}
-
-h2 {
-    font-size: 1.1rem !important;
-}
-
-h3 {
-    font-size: 1rem !important;
-}
-
-h4 {
-    font-size: 0.8rem !important;
-}
-
-.total-content {
-    /* background-color: #231553; */
-}
-
 .inner-slider {
     height: 400px;
 }
@@ -414,24 +337,9 @@ h4 {
     padding: 10px;
 }
 
-.search_input {
-    float: right;
-    width: 83%;
-    outline: 0;
-    background: none;
-    caret-color: transparent;
-    line-height: 40px;
-    transition: width 0.4s linear;
-}
-
-.searchbar:hover>.search_icon {
-    background: white;
-    color: #e80767;
-}
-
 .search_icon {
     height: 40px;
-    width: 15%;
+    width: 7%;
     float: right;
     background: #e80767;
     border-radius: 40%;
@@ -455,7 +363,7 @@ footer {
     height: 700px;
     margin: 0;
     padding: 0;
-    background-image: url('../img/group.svg');
+    background-image: url('../img/Group313.png');
     background-size: 100%;
     /* background-attachment: fixed; */
     background-position: bottom;
