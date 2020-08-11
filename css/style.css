@@ -131,7 +131,7 @@ h4 {
 }
 
 .searchbar:hover>.search_icon {
-    <<<<<<< HEAD=======>>>>>>>880f178f1c4746393d4d4dd8561aaaf32a11ec68 color: #e80767;
+    color: #e80767;
     opacity: .8;
 }
 
@@ -255,7 +255,7 @@ footer {
     border-radius: 1.3rem!important;
 }
 
-<<<<<<< HEAD=======>>>>>>>880f178f1c4746393d4d4dd8561aaaf32a11ec68 .inner-slider {
+ .inner-slider {
     height: 400px;
 }
 
@@ -309,6 +309,17 @@ footer {
     -moz-box-shadow: -1px 2px 5px -1px rgba(249, 194, 97, 1);
     box-shadow: -1px 2px 5px -1px rgba(249, 194, 97, 1);
 }
+.plan .almas {
+    -webkit-box-shadow: -1px 2px 5px -1px rgba(70, 162, 248, 1);
+    -moz-box-shadow: -1px 2px 5px -1px rgba(70, 162, 248, 1);
+    box-shadow: -1px 2px 5px -1px rgba(70, 162, 248, 1);
+}
+.plan .kahkeshan {
+    -webkit-box-shadow: -1px 2px 5px -1px rgba(132, 37, 226, 1);
+    -moz-box-shadow: -1px 2px 5px -1px rgba(132, 37, 226, 1);
+    box-shadow: -1px 2px 5px -1px rgba(132, 37, 226, 1);
+}
+
 
 .popular {
     background-color: #34256a;
@@ -339,10 +350,10 @@ footer {
 
 .search_icon {
     height: 40px;
-    width: 7%;
+    width:9%;
     float: right;
     background: #e80767;
-    border-radius: 40%;
+    border-radius: 50%;
     text-decoration: none;
 }
 
@@ -401,4 +412,7 @@ footer {
     position: relative;
     bottom: 550px;
     height: 111px;
+}
+.inner-plan-header{
+  top:360px;
 }
