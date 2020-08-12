@@ -65,15 +65,6 @@ h4 {
     /* background-color: #231553; */
 }
 
-.inner-slider {
-    height: 400px;
-}
-
-.plan {
-    background-color: #34256a;
-    height: 760px;
-}
-
 .inner-plan-header {
     top: 425px;
 }
@@ -111,7 +102,6 @@ h4 {
 }
 
 .searchbar {
-    width: 32%;
     margin-bottom: auto;
     margin-top: auto;
     height: 60px;
@@ -183,21 +173,16 @@ footer {
 }
 
 .contact-secttion {
-    margin-bottom: 15rem!important;
+    margin-bottom: 11rem!important;
     background-image: url(../img/about.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 800px;
+    padding: 1.5rem;
 }
 
 .plan-body {
     padding-top: 15rem;
-}
-
-.top-footer {
-    position: relative;
-    bottom: 525px;
-    height: 111px;
 }
 
 .inner-top-footer svg {
@@ -264,6 +249,7 @@ footer {
 .plan {
     background-color: #34256a;
     border-radius: 15px;
+    height: 780px;
 }
 
 .plan .text-info-plan {
@@ -310,18 +296,24 @@ footer {
     -webkit-box-shadow: -1px 2px 5px -1px rgba(249, 194, 97, 1);
     -moz-box-shadow: -1px 2px 5px -1px rgba(249, 194, 97, 1);
     box-shadow: -1px 2px 5px -1px rgba(249, 194, 97, 1);
+    position: absolute;
+    top: 745px;
 }
 
 .plan .almas {
     -webkit-box-shadow: -1px 2px 5px -1px rgba(70, 162, 248, 1);
     -moz-box-shadow: -1px 2px 5px -1px rgba(70, 162, 248, 1);
     box-shadow: -1px 2px 5px -1px rgba(70, 162, 248, 1);
+    position: absolute;
+    top: 745px;
 }
 
 .plan .kahkeshan {
     -webkit-box-shadow: -1px 2px 5px -1px rgba(132, 37, 226, 1);
     -moz-box-shadow: -1px 2px 5px -1px rgba(132, 37, 226, 1);
     box-shadow: -1px 2px 5px -1px rgba(132, 37, 226, 1);
+    position: absolute;
+    top: 745px;
 }
 
 .popular {
@@ -336,7 +328,7 @@ footer {
 }
 
 .introduce {
-    /* height: 600px; */
+    height: 600px;
     background-color: #34256a;
 }
 
@@ -366,17 +358,15 @@ footer {
 }
 
 .searchbar {
-    margin-bottom: auto;
-    margin-top: auto;
     height: 60px;
     background-color: #fff;
     border-radius: 30px;
-    padding: 10px;
+    padding: .5rem;
 }
 
 .search_icon {
-    height: 40px;
-    width: 9%;
+    height: 52px;
+    width: 10%;
     float: right;
     background: #e80767;
     border-radius: 50%;
@@ -401,13 +391,14 @@ footer {
     margin: 0;
     padding: 0;
     background-image: url('../img/Group313.png');
-    background-size: 100%;
+    background-size: 100% 100%;
     /* background-attachment: fixed; */
     background-position: bottom;
     background-repeat: no-repeat;
 }
 
 .inner-slider {
+    margin-top: 50px;
     background-image: url(../img/bg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -436,12 +427,20 @@ footer {
 
 .top-footer {
     position: relative;
-    bottom: 550px;
-    height: 111px;
+    bottom: 510px;
+    height: 185px;
 }
 
 .inner-plan-header {
-    top: 360px;
+    top: 375px
+}
+
+.footer-call {
+    text-align: left;
+}
+
+.plan-item {
+    padding: 1rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -449,6 +448,81 @@ footer {
         width: 40%!important;
     }
     footer {
-        height: 500px;
+        height: 400px!important;
     }
+    .footer-call {
+        text-align: right!important;
+    }
+    .footer-call-icon svg {
+        height: 30px;
+    }
+    .footer-location-icon svg {
+        height: 30px;
+    }
+    .top-footer {
+        height: 69px!important;
+        bottom: 425px!important;
+    }
+    .contact-secttion {
+        height: 650px!important;
+        margin-bottom: 0!important;
+        padding-bottom: 6rem!important;
+    }
+    .popular-data {
+        height: 290px;
+    }
+    .popular-img {
+        height: 250px;
+    }
+    .introduce {
+        height: 650px!important;
+    }
+    .introduce1 {
+        flex-direction: column-reverse;
+    }
+    .introduce1-img {
+        height: 46%;
+    }
+    .introduce2-img {
+        height: 46%;
+        margin-bottom: .5rem;
+    }
+    .introduce-data {
+        height: 50%;
+    }
+    .inner-slider {
+        height: 270px;
+    }
+    .searchbar {
+        height: 35px;
+    }
+    .search_icon {
+        height: 30px;
+        width: 15%;
+    }
+    .plan-body {
+        padding-top: 0;
+    }
+    .text-info-plan {
+        font-size: 1rem!important;
+    }
+    .plan {
+        height: 580px;
+    }
+    .plan-item {
+        /* padding: 0!important; */
+    }
+    .plan .header h3 {
+        top: 5%!important;
+        font-size: 2rem!important;
+    }
+    .khorshid,
+    .almas,
+    .kahkeshan {
+        position: absolute!important;
+        top: 542px!important;
+    }
+}
+
+
 }
